@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Es 1
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/main.css">
+    <script src="../script/Es1.js"></script>
+</head>
+<body>
+    <a href="../index.html">Torna indietro</a>
+    <div class="Contenuto">
+        <h1>
+            Esercizi sulla selezione 4 -> Es 1
+        </h1>
+        <form>
+            <label for="TendinaLuogo">Scegli Luogo: </label>
+            <select id="TendinaLuogo" name="Luogo" required>
+                <option value="Montagna">Montagna</option>
+                <option value="Mare">Mare</option>
+                <option value="Spiaggia">Spiaggia</option>
+            </select>
+            <br>
+            <br>
+            <input type="radio" id="PossibilitàBiancoENero" name="Colorazione" value="BiancoENero" required>    <label for="PossibilitàBiancoENero">Bianco e Nero</label>
+            <input type="radio" id="PossibilitàColori" name="Colorazione" value="Colori" required>              <label for="PossibilitàColori">Colori</label>
+            <br>
+            <br>
+            <button onclick="calcola()">Conferma</button>
+        </form>
+    </div>
+</body>

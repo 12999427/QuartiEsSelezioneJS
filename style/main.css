@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+div.Generale {
+    margin: 10px;
+}
+
+div.Contenuto {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+a {
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    color: black;
+    background-color: lightgray;
+    text-decoration: none;
+    margin: 0px;
+}
+
+button {
+    background-color: lightyellow;
+    color: blue;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
